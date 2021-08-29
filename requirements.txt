@@ -1,0 +1,1 @@
+pip install jellyfish==0.8.8
