@@ -1,6 +1,3 @@
-# pip install jellyfish
-# 10-5-30-15-40
-
 import csv
 import jellyfish
 import re
@@ -52,7 +49,7 @@ def compare(x,y):
 			if(jellyfish.levenshtein_distance(i,j)<=5):
 				score += 1
 				break
-	return 2*score/(len(x)+len(y))
+	return score/max(len(x), len(y))
 
 
 def getScores(rows_app, rows_rev):
@@ -65,7 +62,7 @@ def getScores(rows_app, rows_rev):
 				score += 20
 			elif i[4] == j[3]:
 				score += 10
-			score += compare(i[5], j[4]) * 50
+			score += max(compare(i[5], j[4]) * 50, compare(i[6], j[4]) * 25)
 			score += compare(i[7], j[1]) * 30
 			row.append(score)
 		scores.append(row)
