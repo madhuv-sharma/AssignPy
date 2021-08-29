@@ -59,7 +59,7 @@ ___
 
 ### Built with
 - Python
-- Tkinter
+- Tkinter (Python Module)
 ___
 
 ### Sources
