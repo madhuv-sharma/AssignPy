@@ -19,7 +19,7 @@ ___
 ## *The Problem Statement*: 
 Brain Canada receives hundreds of applications in various types and areas of brain research. Each application needs to be randomly assigned to three expert reviewers. Assignment rules: application type, area of research or keywords for each applicant must match or closely match those of reviewers (excluding those with conflict of interest). Currently, Brain Canada uses as Excel model to match each applicant to a reviewer. This is quite tedious and can generate erroneous results that need to be manually corrected - potentially increases assignment bias. The development of a program/automation process to improve the randomization process and generate a march percentage would be very helpful for Brain Canada's research Programs. It should include some level of flexibility to add rules for specific Programs (e.g., the use of keywords or including the level of expertise as criteria). It should also allow CSV or Excel data importing from both the applicant forms and the reviewer forms. 
 ## [*AssignPy* GitHub Repository](https://github.com/madhuv-sharma/AssignPy)
-
+## [*AssignPy* YouTube Demo Video](https://youtu.be/cpTFEdGEPLg)
 ### Short Description
 
 ___
