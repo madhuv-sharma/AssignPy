@@ -47,7 +47,7 @@ ___
 
 ### Our Proud Accomplishment - Scoring Mechanism
 For calculating the percentage we are using *Levenshtein Distance Algorithm*. In information theory, linguistics, and computer science, the Levenshtein distance is a string metric for measuring the difference between two sequences. Informally, the Levenshtein distance between two words is the minimum number of single-character edits (insertions, deletions or substitutions) required to change one word into the other. 
-We are using a threshold value as 5 edits. In simple words if can change word A->B in less than or equal to five “edits” (which can be replacement, addition or deletion) then they are essentially the same.
+**We are using a threshold value as 5 edits. In simple words if can change word A->B in less than or equal to five “edits” (which can be replacement, addition or deletion) then they are essentially the same.**
 
 ___
 
