@@ -25,6 +25,7 @@ ___
 <table>
   <tr><td>Home Page</td><td>Registeration Page</td><td>Login Page</td></tr>
   <tr><td><img src= "https://github.com/madhuv-sharma/temp/blob/main/MainPage.png" ></td><td><img src= "https://github.com/madhuv-sharma/temp/blob/main/Register.png" ></td><td><img src= "https://github.com/madhuv-sharma/temp/blob/main/Login.png" ></td></tr>
+  <tr><td>This is the very first page that you encounter as soon as you run the Python File. This is the root page of the program and therefore one shouldn't close this window. </td><td>Using this page you can Register a new user. After you have entered your details a .txt file is created in the folder with all the credentials.</td><td>A function now checks the credentials against the input provided by the user and gives an output accordingly. </td></tr>
 </table>
 ___
 
