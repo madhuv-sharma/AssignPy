@@ -21,7 +21,7 @@ Brain Canada receives hundreds of applications in various types and areas of bra
 ## [*AssignPy* GitHub Repository](https://github.com/madhuv-sharma/AssignPy)
 ## [*AssignPy* YouTube Demo Video](https://youtu.be/cpTFEdGEPLg)
 ### Short Description
-
+AssignPy is a grant Management System that is based on Levenshtein Distance Algorithm.
 ___
 
 
@@ -62,6 +62,3 @@ ___
 ### Built with
 - Python
 - Tkinter (Python Module)
-___
-
-### Sources
