@@ -49,7 +49,7 @@ For calculating the percentage we are using *Levenshtein Distance Algorithm*. In
 ___
 
 ### What We've Learned
-
+This hackathon introduced our team to the nuances of designing a complex Grant Management Systems. The excitement of brainstorming initial ideas, the challenge of implementing these ideas in practice, and the rewarding feeling when the project comes together at the end. We had fun exploring algorithms, like the Levenshtein Distance, and the 'art' of writing an optimised Code. Furthermore, we feel honored that we got an opportunity to work for an NGO like the Brain Canada.  
 ___
 
 ### Future Project Extension
