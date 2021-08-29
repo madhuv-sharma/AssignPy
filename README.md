@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Our Proud Accomplishments
+### Our Proud Accomplishment - 
 
 ___
 
@@ -53,7 +53,10 @@ ___
 
 ___
 
-### Future Project Extensions
+### Future Project Extension
+- Ability to enter a rubriks from the GUI itself
+- Making the GUI easier to navigate 
+- Integrating MySQL to have a database with all the information (Students,Reviewer,Passwords,etc.)
 
 ___
 
