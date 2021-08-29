@@ -40,7 +40,7 @@ ___
 ### Challenges We Encountered
 <div>
   <img align='left' src="https://media3.giphy.com/media/l2YWFxG9GxXk8A7w4/giphy.gif?cid=ecf05e47cqpuzxgw3zhivi0ur3sxw4388yb4dyhanpm7tu5g&rid=giphy.gif&ct=g" width="300"> 
-  <dl><dt><h3>- Incorporating the whole code in the Tkinter GUI</h3></dt><dt><h3>- Coming up with an optimal scoring system</h3> </dt> <p>Type of Research is for 20 pts (if primary matches then 20 pts and for secondary 10 otherwise Zero)</p><p> Similarly, Research Area for 50 pts (if primary matches then 50 pts and for secondary 25 otherwise Zero)</p><p> And Keywords are for 30 pts</p></ul>
+  <dl><dt><h3>- Incorporating the whole code in the Tkinter GUI</h3></dt><dt><h3>- Coming up with an optimal scoring system</h3> </dt> <p>Type of Research is for 20 pts (if primary matches then 20 pts and for secondary 10 otherwise Zero)</p><p> Similarly, Research Area for 50 pts (The result can take any value between Zero to 50)</p><p> And Keywords are for 30 pts</p></ul>
 </div>
 
 ___
