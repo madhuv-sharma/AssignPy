@@ -1,4 +1,4 @@
-# Project Name
+# AssignPy
 <br><i>Kurius SE Hackathon Project - Brain Canada Foundation </br></i>
 
 <div align = "center">
