@@ -56,8 +56,9 @@ def compare(x,y):
 
 
 def getScores(rows_app, rows_rev):
+	scores = []
 	for i in rows_app:
-		scores = []
+		row = []
 		for j in rows_rev:
 			score = 0
 			if i[3] == j[3]:
@@ -66,28 +67,33 @@ def getScores(rows_app, rows_rev):
 				score += 10
 			score += compare(i[5], j[4]) * 50
 			score += compare(i[7], j[1]) * 20
-			scores.append(score)
-		return scores
+			row.append(score)
+		scores.append(row)
+	return scores
 
 
 def genFile(rows_app, rows_rev, scores, outFileLoc="output.csv"):
 	with open(outFileLoc, 'w') as file:
 		csv_writer = csv.writer(file, delimiter=',')
 		row = ['']
-		for r in rows_rev:
-			row.append(r[0])
+		r = 1
+		while r < len(rows_rev)-1:
+			row.append(rows_rev[r][0])
+			r += 1
 		csv_writer.writerow(row)
-		k = 0
-		while True:
-			try:
-				row = []
-				row.append(rows_app[k][0])
-				for s in scores[k]:
-					row.append(s)
-				csv_writer.writerow(row)
-				k += 1
-			except Exception:
-				break
+		k = 1
+		while k <= len(rows_app):
+			# try:
+			row = []
+			row.append(rows_app[k][0])
+			s = 0
+			while s < len(scores[0]):
+				row.append(scores[k][s])
+				s += 1
+			csv_writer.writerow(row)
+			k += 1
+			# except Exception:
+				# pass
 	return outFileLoc
 
 
