@@ -21,7 +21,7 @@ def login_sucess():
   screen3.geometry("420x420")
   screen3['bg']='#FF1212'
   Label(screen3,image=photo).pack()
-  Label(screen3,text = "Name of the Project", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
+  Label(screen3,text = "AssignPy", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
   Label(screen3,text="",bg="#FF1212").pack()
 
   Button(screen3, text="Choose the Excel",width='30',height='2').pack()
@@ -95,6 +95,7 @@ def register():
   Label(screen1, image =photo).pack()
   screen1.geometry('420x500')
   screen1['bg'] = '#FF1212'
+  Label(screen1,text = "AssignPy", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
 
   
   global username
@@ -126,7 +127,7 @@ def login():
   Label(screen2, image = photo).pack()
   screen2.geometry("420x500")
   screen2['bg']='#FF1212'
-  Label(screen2,text = "Name of the Project", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
+  Label(screen2,text = "AssignPy", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
   Label(screen2,text = "",bg = "#FF1212").pack()
   Label(screen2, text = "Please enter details below to login").pack()
   Label(screen2,text = "",bg = "#FF1212").pack()
@@ -163,7 +164,7 @@ def main_screen():
   screen.geometry('420x420')
   screen.title("MAIN PAGE")
   screen['bg'] = '#FF1212'
-  Label(text = "Name of the Project", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
+  Label(text = "AssignPy", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
   Label(text = "",bg = "#FF1212").pack()
   Button(text = "Login", height = "2", width = "30", command = login).pack()
   Label(text = "",bg = "#FF1212").pack()
