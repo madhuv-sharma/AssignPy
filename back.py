@@ -66,14 +66,14 @@ def getScores(rows_app, rows_rev):
 			elif i[4] == j[3]:
 				score += 10
 			score += compare(i[5], j[4]) * 50
-			score += compare(i[7], j[1]) * 20
+			score += compare(i[7], j[1]) * 30
 			row.append(score)
 		scores.append(row)
 	return scores
 
 
 def genFile(rows_app, rows_rev, scores, outFileLoc="output.csv"):
-	with open(outFileLoc, 'w') as file:
+	with open(outFileLoc, 'w', newline='') as file:
 		csv_writer = csv.writer(file, delimiter=',')
 		row = ['']
 		r = 1
@@ -82,7 +82,7 @@ def genFile(rows_app, rows_rev, scores, outFileLoc="output.csv"):
 			r += 1
 		csv_writer.writerow(row)
 		k = 1
-		while k <= len(rows_app):
+		while k < len(rows_app):
 			# try:
 			row = []
 			row.append(rows_app[k][0])
