@@ -2,7 +2,7 @@
 <br><i>Kurius SE Hackathon Project - Brain Canada Foundation </br></i>
 
 <div align = "center">
-  <img align="center" src= "https://github.com/madhuv-sharma/temp/blob/main/MdLogo.png" />
+  <img align="center" src= "https://github.com/madhuv-sharma/temp/blob/main/MdLogo.png" >
   <p></p>
   <p>Brain Canada is a national non-profit organization that plays a unique and invaluable role as the national convenor of those who support and advance brain research. Our vision is to understand the brain in health and illness, to improve lives and achieve societal impact. We achieve our vision by Increasing the scale and scope of funding to accelerate the pace of Canadian brain research, creating a collective commitment to brain research across the public, private and voluntary sectors, and delivering transformative, original and outstanding research programs.
 </p>
@@ -22,7 +22,10 @@ ___
 ___
 
 ### How to Use The Application
-
+<table>
+  <tr><td>Home Page</td><td>Registeration Page</td><td>Login Page</td></tr>
+  <tr><td><img src= "https://github.com/madhuv-sharma/temp/blob/main/MainPage.png" ></td><td><img src= "https://github.com/madhuv-sharma/temp/blob/main/Register.png" ></td><td><img src= "https://github.com/madhuv-sharma/temp/blob/main/Login.png" ></td></tr>
+</table>
 ___
 
 ### Challenges We Encountered
