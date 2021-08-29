@@ -37,7 +37,7 @@ ___
 ___
 
 ### Challenges We Encountered
-
+<iframe src="https://giphy.com/embed/l2YWFxG9GxXk8A7w4" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/obama-barack-obama-potus-l2YWFxG9GxXk8A7w4">via GIPHY</a></p>
 ___
 
 ### Our Proud Accomplishments
