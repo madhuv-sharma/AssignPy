@@ -16,7 +16,7 @@ ___
 </div>
 
 
-## *The Challenge*: 
+## *The Problem Statement*: 
 Brain Canada receives hundreds of applications in various types and areas of brain research. Each application needs to be randomly assigned to three expert reviewers. Assignment rules: application type, area of research or keywords for each applicant must match or closely match those of reviewers (excluding those with conflict of interest). Currently, Brain Canada uses as Excel model to match each applicant to a reviewer. This is quite tedious and can generate erroneous results that need to be manually corrected - potentially increases assignment bias. The development of a program/automation process to improve the randomization process and generate a march percentage would be very helpful for Brain Canada's research Programs. It should include some level of flexibility to add rules for specific Programs (e.g., the use of keywords or including the level of expertise as criteria). It should also allow CSV or Excel data importing from both the applicant forms and the reviewer forms. 
 ## [*AssignPy* GitHub Repository](https://github.com/madhuv-sharma/temp)
 
@@ -37,7 +37,11 @@ ___
 ___
 
 ### Challenges We Encountered
-<img src="https://media3.giphy.com/media/l2YWFxG9GxXk8A7w4/giphy.gif?cid=ecf05e47cqpuzxgw3zhivi0ur3sxw4388yb4dyhanpm7tu5g&rid=giphy.gif&ct=g" width="480">
+<div>
+  <img align='left' src="https://media3.giphy.com/media/l2YWFxG9GxXk8A7w4/giphy.gif?cid=ecf05e47cqpuzxgw3zhivi0ur3sxw4388yb4dyhanpm7tu5g&rid=giphy.gif&ct=g" width="300"> 
+  <dl><dt><h3>- Incorporating the whole code in the Tkinter GUI</h3></dt><dt><h3>- Coming up with an optimal scoring system</h3> </dt> <p>Type of Research is for 20 pts (if primary matches then 20 pts and for secondary 10 otherwise Zero)</p><p> Similarly, Research Area for 50 pts (if primary matches then 50 pts and for secondary 25 otherwise Zero)</p><p> And Keywords are for 30 pts</p></ul>
+</div>
+
 ___
 
 ### Our Proud Accomplishments
