@@ -24,9 +24,6 @@ Brain Canada receives hundreds of applications in various types and areas of bra
 
 ___
 
-### The Motivation Behind This Project
-
-___
 
 ### How to Use The Application
 <table>
