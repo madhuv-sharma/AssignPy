@@ -37,7 +37,7 @@ ___
 ___
 
 ### Challenges We Encountered
-<img src="https://giphy.com/embed/l2YWFxG9GxXk8A7w4" width="480">
+<img src="https://media3.giphy.com/media/l2YWFxG9GxXk8A7w4/giphy.gif?cid=ecf05e47cqpuzxgw3zhivi0ur3sxw4388yb4dyhanpm7tu5g&rid=giphy.gif&ct=g" width="480">
 ___
 
 ### Our Proud Accomplishments
