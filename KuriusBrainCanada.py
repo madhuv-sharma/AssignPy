@@ -13,21 +13,29 @@ def delete3():
 
 def delete4():
   screen5.destroy()
+
+def ComingSoon():
+  Label(screen3,text="Feature Comming Soon! Meanwhile you can save the Excel file in the folder of this program and Execute the code").pack()
+def TheAlgo():
+  print("Hello World!")
+  Result= []
+  for i in Result:
+    Label(screen3,text=i,bg="#FF1212").pack()
   
 def login_sucess():
   global screen3
   screen3 = Toplevel(screen)
   screen3.title("Success")
-  screen3.geometry("420x420")
+  screen3.geometry("420x600")
   screen3['bg']='#FF1212'
   Label(screen3,image=photo).pack()
   Label(screen3,text = "AssignPy", bg = "#3B48C3", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
   Label(screen3,text="",bg="#FF1212").pack()
 
-  Button(screen3, text="Choose the Excel",width='30',height='2').pack()
+  Button(screen3, text="Choose the Excel",width='30',height='2', command= ComingSoon)
   Label(screen3,text="",bg="#FF1212").pack()
 
-  Button(screen3, text="Execute the Programme",width='30',height='2').pack()
+  Button(screen3, text="Execute the Programme",width='30',height='2', command=TheAlgo).pack()
   Label(screen3,text="",bg="#FF1212").pack()
   Label(screen3,text = "The Output", bg = "grey", width = "300", height = "2", font = ("Times New Roman", 13,'bold')).pack()
 
