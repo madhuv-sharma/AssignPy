@@ -55,7 +55,8 @@ ___
 ### Future Project Extension
 - Ability to enter a rubriks from the GUI itself
 - Making the GUI easier to navigate 
-- Integrating MySQL to have a database with all the information (Students,Reviewer,Passwords,etc.)
+- Integrating MySQL to have a database with all the information (Students, Reviewers, Passwords etc.)
+- Improvising the Match Percentage Algorithm by Scraping Websites and Training a model based on it.
 
 ___
 
